@@ -1,0 +1,8 @@
+# robots.txt for BUILD WITH HARI (Founder: Hari Nandan K.)
+# https://ais-pre-udd7rt6ofdpfjny3x5oeis-330599699264.asia-east1.run.app
+
+User-agent: *
+Allow: /
+
+# Sitemap declaration
+Sitemap: https://ais-pre-udd7rt6ofdpfjny3x5oeis-330599699264.asia-east1.run.app/sitemap.xml

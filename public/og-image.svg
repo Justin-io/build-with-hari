@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B0C0E" />
+      <stop offset="50%" stop-color="#101114" />
+      <stop offset="100%" stop-color="#14161C" />
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#4778F5" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#4778F5" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="greenGlow" cx="80%" cy="80%" r="45%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Deep Canvas -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+  <rect width="1200" height="630" fill="url(#blueGlow)" />
+  <rect width="1200" height="630" fill="url(#greenGlow)" />
+  <rect x="1" y="1" width="1198" height="628" rx="0" stroke="#23252E" stroke-width="2" />
+
+  <!-- Top Badge Zone -->
+  <rect x="80" y="80" width="220" height="38" rx="19" fill="#191A20" stroke="#2B2D38" />
+  <circle cx="102" cy="99" r="5" fill="#4778F5" />
+  <text x="118" y="104" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#E4E4E7" letter-spacing="1.5">INDEPENDENT STUDIO</text>
+
+  <!-- Brand Title -->
+  <text x="80" y="210" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Plus Jakarta Sans', sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" letter-spacing="-1.5">BUILD WITH HARI</text>
+
+  <!-- Supporting Headline -->
+  <text x="80" y="275" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="500" fill="#93C5FD">Your idea. Built properly.</text>
+
+  <!-- Value Description -->
+  <text x="80" y="340" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="400" fill="#A1A1AA">Custom software, Python, data science, and AI project development tailored to your requirements.</text>
+  <text x="80" y="375" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="400" fill="#A1A1AA">1-on-1 engineering with complete source code, local setup, and viva defense support.</text>
+
+  <!-- Service Pills -->
+  <g transform="translate(80, 430)">
+    <rect x="0" y="0" width="180" height="42" rx="10" fill="#191A20" stroke="#2A2B35" />
+    <text x="24" y="26" font-family="monospace" font-size="13" font-weight="600" fill="#E4E4E7">Web &amp; Apps · ₹699</text>
+
+    <rect x="195" y="0" width="200" height="42" rx="10" fill="#191A20" stroke="#2A2B35" />
+    <text x="219" y="26" font-family="monospace" font-size="13" font-weight="600" fill="#E4E4E7">Python Scripts · ₹599</text>
+
+    <rect x="410" y="0" width="190" height="42" rx="10" fill="#191A20" stroke="#2A2B35" />
+    <text x="434" y="26" font-family="monospace" font-size="13" font-weight="600" fill="#E4E4E7">Data Science · ₹999</text>
+
+    <rect x="615" y="0" width="180" height="42" rx="10" fill="#191A20" stroke="#2A2B35" />
+    <text x="639" y="26" font-family="monospace" font-size="13" font-weight="600" fill="#E4E4E7">AI &amp; ML · ₹1,299</text>
+  </g>
+
+  <!-- Bottom Founder Card & Social Verification -->
+  <line x1="80" y1="520" x2="1120" y2="520" stroke="#262732" stroke-width="1" />
+
+  <text x="80" y="565" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Founder: Hari Nandan K.</text>
+  <text x="80" y="590" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13" font-weight="400" fill="#71717A">Kozhikode, Kerala, India · Worldwide Delivery</text>
+
+  <text x="780" y="565" font-family="monospace" font-size="13" font-weight="500" fill="#60A5FA">github.com/Justin-io</text>
+  <text x="780" y="590" font-family="monospace" font-size="13" font-weight="500" fill="#A1A1AA">justinalexia.vercel.app</text>
+</svg>

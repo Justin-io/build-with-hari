@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Sleek Apple Dark Background -->
+  <rect width="64" height="64" rx="14" fill="#101114" />
+  <!-- Subtle border -->
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" stroke="#2A2B33" stroke-width="1" />
+  <!-- Electric Cobalt Accent Core -->
+  <rect x="16" y="16" width="12" height="12" rx="3" fill="#4778F5" />
+  <!-- Architectural grid accents -->
+  <path d="M16 36H48M36 16V48" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="36" cy="36" r="3" fill="#4778F5" />
+  <circle cx="48" cy="48" r="2.5" fill="#10B981" />
+</svg>

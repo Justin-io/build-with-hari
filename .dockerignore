@@ -1,0 +1,32 @@
+# =================================================================
+# BUILD WITH HARI — PRODUCTION .DOCKERIGNORE
+# =================================================================
+node_modules
+dist
+dist-ssr
+build
+out
+.output
+coverage
+.nyc_output
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*credentials*.json
+tests
+logs
+*.log
+.aistudio
+.gemini
+.cursor
+.windsurf
+rebrand_verification.png
+bun.lock
+bun.lockb
+.DS_Store
+Thumbs.db

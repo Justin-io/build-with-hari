@@ -1,0 +1,171 @@
+# =================================================================
+# BUILD WITH HARI — PRODUCTION-GRADE AIRTIGHT .GITIGNORE
+# Zero-trust security against credential leaks, ephemeral assets,
+# build artifacts, OS junk, and local IDE metadata.
+# =================================================================
+
+# -----------------------------------------------------------------
+# 1. DEPENDENCIES & PACKAGE MANAGERS
+# -----------------------------------------------------------------
+node_modules/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+
+# Alternative package manager artifacts (Standard: npm + package-lock.json)
+bun.lock
+bun.lockb
+
+# -----------------------------------------------------------------
+# 2. BUILD ARTIFACTS, COMPILED CODE & CACHES
+# -----------------------------------------------------------------
+dist/
+dist-ssr/
+build/
+out/
+.output/
+*.tsbuildinfo
+.vite/
+.turbo/
+.parcel-cache/
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+
+# -----------------------------------------------------------------
+# 3. SECRETS, CREDENTIALS, KEYS & ENVIRONMENTS (CRITICAL)
+# -----------------------------------------------------------------
+# Environment variables (strict zero-trust)
+.env
+.env.*
+.env*.local
+!.env.example
+
+# Cryptographic Keys & Certificates
+*.pem
+*.key
+*.pkcs12
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Cloud & Service Account Credentials (GCP, AWS, Firebase, Stripe)
+*service-account*.json
+*credentials*.json
+*client_secret*.json
+gcp-key*.json
+google-credentials*.json
+firebase-adminsdk*.json
+*private-key*.json
+*secret*.json
+*.keystore
+gcloud-config/
+.gcp/
+.aws/
+.azure/
+
+# -----------------------------------------------------------------
+# 4. LOGS, DUMPS & DIAGNOSTICS
+# -----------------------------------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+vite-debug.log*
+core
+core.*
+*.dmp
+*.dump
+*.stackdump
+
+# -----------------------------------------------------------------
+# 5. TEST, COVERAGE & PROFILING
+# -----------------------------------------------------------------
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# -----------------------------------------------------------------
+# 6. AI STUDIO, AGENTS & LOCAL ASSISTANT CACHES
+# -----------------------------------------------------------------
+.aistudio/
+.gemini/
+.cursor/
+.windsurf/
+.copilot/
+.continue/
+.agents/
+scratch/
+brain/
+
+# Temporary verification captures & scratch assets
+rebrand_verification.png
+*.tempmediaStorage/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# -----------------------------------------------------------------
+# 7. OPERATING SYSTEM ARTIFACTS
+# -----------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# -----------------------------------------------------------------
+# 8. IDE & CODE EDITOR WORKSPACES
+# -----------------------------------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+\#*\#
+.#*
